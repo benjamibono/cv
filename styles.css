@@ -1,0 +1,108 @@
+/*****************************TAG SELECTORS******************************/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #112D4E;
+    font-size: 3.4375rem;
+    margin: 20px auto  0 auto;
+    font-family: cursive, Arial, Helvetica, sans-serif
+}
+h2{
+    color: #112D4E;
+    font-size: 1.4rem;
+    text-align: center;
+}
+h3{
+    color: #112D4E;
+}
+p{
+    color: #112D4E;
+    line-height: 2;
+}
+a{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #3F72AF;
+}
+a:hover{
+    color: #eaf6f6;
+}
+/*****************************CLASS SELECTORS******************************/
+.profile-image {
+    background-color: #F9F7F7;
+    padding: 20px;
+}
+.top-container {
+
+    background-color: #DBE2EF;
+    padding: 10px;
+    position: relative;
+}
+.profile{
+    background-color: #DBE2EF;
+    padding: 30px;
+}
+.middle-container {
+    background-color: #3F72AF;
+    padding: 20px;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.python-img {
+    width: 25%;
+    float: left;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin-right: 30px;
+}
+.webdev-img {
+    width: 25%;
+    float: right;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin-left: 30px;
+}
+.bottom-container {
+    background-color: #346197;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #3cf2fc;
+    background-image: -webkit-linear-gradient(top, #3cf2fc, #3498db);
+    background-image: -moz-linear-gradient(top, #3cf2fc, #3498db);
+    background-image: -ms-linear-gradient(top, #3cf2fc, #3498db);
+    background-image: -o-linear-gradient(top, #3cf2fc, #3498db);
+    background-image: linear-gradient(to bottom, #3cf2fc, #3498db);
+    text-decoration: none;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+}
+.footer-container{
+    background-color: #112D4E;
+    padding-top: 10px;
+}
+/*****************************ID SELECTORS******************************/
